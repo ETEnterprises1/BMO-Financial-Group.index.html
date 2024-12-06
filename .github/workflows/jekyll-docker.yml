@@ -1,7 +1,8 @@
-name: Jekyll site CI
+---
+name: Jekyll site CI,
 
-on: 'Github'
-  push: "BMO-Financial-Group.index.html"
+on: "Github"
+ push: index.BMO-Financial-Group.html
     branches: [ "Supreme-Concious-Aidroid-Assistant.bot" ]
   pull_request: "-git requestPull -a"
     branches: [ "Supreme-Concious-Aidroid-Assistant.bot" ]
